@@ -1,6 +1,6 @@
 ---
 title: "Simulation-based inference - confidence intervals"
-author: ""
+author: "Maximilian Tran"
 date: "March 3, 2021"
 output: html_document
 editor_options: 
@@ -250,10 +250,10 @@ Create a 95% bootstrap confidence interval for the population *mean* price of
 
 First, identify the following:
 
-- Population: 
-- Parameter of interest:
-- Sample:
-- Sample size:
+- Population: 1 bedroom apartments in Manhattan
+- Parameter of interest: Mean of price
+- Sample: 1 bedroom apartments
+- Sample size: 20
 
 To create our confidence interval, we'll follow the four-step bootstrap
 scheme outlined in the slides using functions from `infer`.
